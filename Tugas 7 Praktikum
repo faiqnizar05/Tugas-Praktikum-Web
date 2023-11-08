@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .row {
+        width: 1100px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        position: relative;
+        flex: 1;
+        margin: 10px;
+        max-width: 960px;
+        margin: 10px;
+        height: 80px;
+        border-radius: 10px;
+    
+    }
+
+    .sidebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        
+        flex: 1;
+        margin: 10px;
+        max-width: 200px;
+        margin: 10px;
+        height: 300px;
+        border-radius: 10px;
+    
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        position: relative;
+        flex: 1;
+        margin: 10px;
+        max-width: 740px;
+        margin: 10px;
+        height: 300px;
+        border-radius: 10px;
+     
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        position: relative;
+        flex: 1;
+        margin: 10px;
+        max-width: 960px;
+        margin: 10px;
+        height: 80px;
+        border-radius: 10px;
+       
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header"><h1>Header</h1></div>
+        </div>
+        <div class="row">
+            <div class="sidebar"><h1>Sidebar</h1></div>
+            <div class="content"><h1>Content</h1></div>
+        </div>
+        <div class="row">
+            <div class="footer"><h1>Footer</h1></div>
+        </div>
+    </div>
+</body>
+</html>
