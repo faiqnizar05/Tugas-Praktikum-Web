@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 8</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<style>
+ * {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: chocolate;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header {
+    background-color: lightblue;
+    height: 90px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content-wrap {
+    display: flex;
+}
+
+aside {
+    background-color: deeppink;
+    flex: 3;
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+article {
+    background-color: lawngreen;
+    flex: 1;
+    padding: 10px;
+    height: 500px;
+    width: 800px;
+}
+
+footer {
+    background-color: crimson;
+    height: 100px;
+    width: 100%;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <nav class="nav">nav</nav>
+        <div class="content">
+            <header>header</header>
+            <main>
+                <div class="content-wrap">
+                    <aside>aside</aside>
+                    <article>article</article>
+                </div>
+                <footer>footer</footer>
+            </main>
+        </div>
+    </div>
+    
+</body>
+</html>
